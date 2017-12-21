@@ -106,7 +106,7 @@
 
         myConnector.getData = function(table, doneCallback) {
             var userInput = JSON.parse(tableau.connectionData),
-                apiCall = "https://grlc.io/api/StanRonzhin/tableauIntegration/PandenVoorBuurt?buurtNaam=" + userInput.input;
+                apiCall = "http://grlc.io/api/StanRonzhin/tableauIntegration/PandenVoorBuurt?buurtNaam=" + userInput.input;
 
             var settings = {
                 "async": true,
